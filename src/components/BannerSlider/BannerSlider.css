@@ -1,0 +1,21 @@
+/* src/components/BannerSlider.css */
+.banner-slider {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Optional: Customize dot styles */
+  .slick-dots li button:before {
+    color: #000; /* Change dot color */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ff0000; /* Change active dot color */
+  }
+  
